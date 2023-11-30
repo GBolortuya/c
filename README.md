@@ -16,16 +16,9 @@ def largest_rectangle_area(heights):
 def main():
     # Read the number of rectangles
     n = int(input())
-
-    # Read the heights of rectangles
     heights = list(map(float, input().split()))
-
-    # Calculate the largest rectangle area
     area = largest_rectangle_area(heights)
 
-    # Implement other functionalities: DFS, BFS, Path from Root to Minimum Node, Nearest Treasure Found
-
-    # Print the largest rectangle area
     print("Largest Rectangle Area:", area)
 if __name__ == "__main__":
     # Here's an example of how you could use the specific inputs you provided
