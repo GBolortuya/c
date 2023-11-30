@@ -13,8 +13,6 @@ def largest_rectangle_area(heights):
         stack.append(i)
 
     return max_area
-
-# Main function to process input and perform required operations
 def main():
     # Read the number of rectangles
     n = int(input())
@@ -29,8 +27,6 @@ def main():
 
     # Print the largest rectangle area
     print("Largest Rectangle Area:", area)
-
-# Run the main function
 if __name__ == "__main__":
     # Here's an example of how you could use the specific inputs you provided
     input_data = """7
@@ -42,8 +38,6 @@ if __name__ == "__main__":
     Gym 25.280 121.570
     Stadium 25.200 121.480
     Auditorium 25.260 121.550"""
-
-    # Split the multiline input into lines and use as input
     import io
     import sys
 
